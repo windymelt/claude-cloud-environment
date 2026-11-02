@@ -7,6 +7,9 @@ Claude Code のクラウド環境 (claude.ai/code) 用セットアップスク�
 | ファイル | 役割 |
 |---|---|
 | `setup.sh` | 入口。同じコミットの各スクリプトを順に実行する |
+| `setup-claude-md.sh` | `~/.claude/CLAUDE.md` (Proton Pass の使い方) を配置する |
+| `setup-proton-pass.sh` | Proton Pass CLI (`pass-cli`) を入れる |
+| `setup-sdkman.sh` | SDKMAN を入れる (インストール済みならスキップ) |
 | `setup-scala.sh` | coursier / scala / scalac / scala-cli / sbt を入れ、プロキシ CA と Maven Central ミラーに対応したラッパーを置く |
 
 ## 使い方

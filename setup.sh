@@ -12,4 +12,7 @@ run() {
   curl -fsSL --retry 4 --retry-delay 2 "$BASE/$1" | bash
 }
 
+run setup-claude-md.sh
+run setup-proton-pass.sh
+run setup-sdkman.sh
 run setup-scala.sh
