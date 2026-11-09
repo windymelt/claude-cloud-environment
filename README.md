@@ -11,6 +11,7 @@ Claude Code のクラウド環境 (claude.ai/code) 用セットアップスク�
 | `setup-proton-pass.sh` | Proton Pass CLI (`pass-cli`) を入れる |
 | `setup-sdkman.sh` | SDKMAN を入れる (インストール済みならスキップ) |
 | `setup-scala.sh` | coursier / scala / scalac / scala-cli / sbt を入れ、プロキシ CA と Maven Central ミラーに対応したラッパーを置く |
+| `setup-cosense-mcp.sh` | Cosense の MCP サーバー (`scrapbox-cosense-mcp`) を `cosense` としてユーザー設定に登録する。PAT は起動時に Proton Pass (`Claude Code` ボールトの `Cosense PAT` アイテム、`PAT` 欄) から取り出す。対象は `windymelt` と `windymelt-20168004` に限定 |
 
 ## 使い方
 
