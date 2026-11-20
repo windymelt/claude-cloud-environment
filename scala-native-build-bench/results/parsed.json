@@ -1,0 +1,1934 @@
+{
+ "base": [
+  {
+   "compile": 8136,
+   "link1": 11905,
+   "link1_stages": [
+    [
+     "Linking",
+     2337
+    ],
+    [
+     "Checking intermediate code (quick)",
+     205
+    ],
+    [
+     "Optimizing (debug mode)",
+     3503
+    ],
+    [
+     "Generating intermediate code",
+     2224
+    ],
+    [
+     "Compiling to native code",
+     3235
+    ],
+    [
+     "Total",
+     11705
+    ]
+   ],
+   "link1_scalac": 17,
+   "link2": 213,
+   "link2_stages": [],
+   "link2_scalac": 11,
+   "link3": 13110,
+   "link3_stages": [
+    [
+     "Linking",
+     1837
+    ],
+    [
+     "Checking intermediate code (quick)",
+     107
+    ],
+    [
+     "Optimizing (debug mode)",
+     2615
+    ],
+    [
+     "Generating intermediate code",
+     1535
+    ],
+    [
+     "Compiling to native code",
+     4499
+    ],
+    [
+     "Total",
+     10790
+    ]
+   ],
+   "link3_scalac": 2094
+  },
+  {
+   "compile": 7832,
+   "link1": 12231,
+   "link1_stages": [
+    [
+     "Linking",
+     2345
+    ],
+    [
+     "Checking intermediate code (quick)",
+     190
+    ],
+    [
+     "Optimizing (debug mode)",
+     3514
+    ],
+    [
+     "Generating intermediate code",
+     2208
+    ],
+    [
+     "Compiling to native code",
+     3557
+    ],
+    [
+     "Total",
+     12037
+    ]
+   ],
+   "link1_scalac": 23,
+   "link2": 173,
+   "link2_stages": [],
+   "link2_scalac": 9,
+   "link3": 12017,
+   "link3_stages": [
+    [
+     "Linking",
+     1651
+    ],
+    [
+     "Checking intermediate code (quick)",
+     116
+    ],
+    [
+     "Optimizing (debug mode)",
+     2381
+    ],
+    [
+     "Generating intermediate code",
+     1691
+    ],
+    [
+     "Compiling to native code",
+     4065
+    ],
+    [
+     "Total",
+     10079
+    ]
+   ],
+   "link3_scalac": 1738
+  },
+  {
+   "compile": 8128,
+   "link1": 12472,
+   "link1_stages": [
+    [
+     "Linking",
+     2451
+    ],
+    [
+     "Checking intermediate code (quick)",
+     294
+    ],
+    [
+     "Optimizing (debug mode)",
+     3578
+    ],
+    [
+     "Generating intermediate code",
+     2246
+    ],
+    [
+     "Compiling to native code",
+     3437
+    ],
+    [
+     "Total",
+     12245
+    ]
+   ],
+   "link1_scalac": 23,
+   "link2": 236,
+   "link2_stages": [],
+   "link2_scalac": 17,
+   "link3": 12048,
+   "link3_stages": [
+    [
+     "Linking",
+     1702
+    ],
+    [
+     "Checking intermediate code (quick)",
+     135
+    ],
+    [
+     "Optimizing (debug mode)",
+     2399
+    ],
+    [
+     "Generating intermediate code",
+     1514
+    ],
+    [
+     "Compiling to native code",
+     4058
+    ],
+    [
+     "Total",
+     10003
+    ]
+   ],
+   "link3_scalac": 1865
+  }
+ ],
+ "A": [
+  {
+   "compile": 8098,
+   "link1": 9521,
+   "link1_stages": [
+    [
+     "Linking",
+     2059
+    ],
+    [
+     "Checking intermediate code (quick)",
+     273
+    ],
+    [
+     "Optimizing (skipped)",
+     0
+    ],
+    [
+     "Generating intermediate code",
+     2830
+    ],
+    [
+     "Compiling to native code",
+     3919
+    ],
+    [
+     "Total",
+     9309
+    ]
+   ],
+   "link1_scalac": 15,
+   "link2": 154,
+   "link2_stages": [],
+   "link2_scalac": 9,
+   "link3": 9020,
+   "link3_stages": [
+    [
+     "Linking",
+     1679
+    ],
+    [
+     "Checking intermediate code (quick)",
+     90
+    ],
+    [
+     "Optimizing (skipped)",
+     0
+    ],
+    [
+     "Generating intermediate code",
+     1614
+    ],
+    [
+     "Compiling to native code",
+     3934
+    ],
+    [
+     "Total",
+     7549
+    ]
+   ],
+   "link3_scalac": 1298
+  },
+  {
+   "compile": 8021,
+   "link1": 9629,
+   "link1_stages": [
+    [
+     "Linking",
+     2272
+    ],
+    [
+     "Checking intermediate code (quick)",
+     131
+    ],
+    [
+     "Optimizing (skipped)",
+     0
+    ],
+    [
+     "Generating intermediate code",
+     2723
+    ],
+    [
+     "Compiling to native code",
+     4093
+    ],
+    [
+     "Total",
+     9446
+    ]
+   ],
+   "link1_scalac": 14,
+   "link2": 170,
+   "link2_stages": [],
+   "link2_scalac": 11,
+   "link3": 8299,
+   "link3_stages": [
+    [
+     "Linking",
+     1492
+    ],
+    [
+     "Checking intermediate code (quick)",
+     48
+    ],
+    [
+     "Optimizing (skipped)",
+     0
+    ],
+    [
+     "Generating intermediate code",
+     1551
+    ],
+    [
+     "Compiling to native code",
+     3690
+    ],
+    [
+     "Total",
+     6972
+    ]
+   ],
+   "link3_scalac": 1191
+  },
+  {
+   "compile": 8169,
+   "link1": 9075,
+   "link1_stages": [
+    [
+     "Linking",
+     2440
+    ],
+    [
+     "Checking intermediate code (quick)",
+     157
+    ],
+    [
+     "Optimizing (skipped)",
+     0
+    ],
+    [
+     "Generating intermediate code",
+     2830
+    ],
+    [
+     "Compiling to native code",
+     3255
+    ],
+    [
+     "Total",
+     8901
+    ]
+   ],
+   "link1_scalac": 16,
+   "link2": 144,
+   "link2_stages": [],
+   "link2_scalac": 9,
+   "link3": 7930,
+   "link3_stages": [
+    [
+     "Linking",
+     1513
+    ],
+    [
+     "Checking intermediate code (quick)",
+     64
+    ],
+    [
+     "Optimizing (skipped)",
+     0
+    ],
+    [
+     "Generating intermediate code",
+     1507
+    ],
+    [
+     "Compiling to native code",
+     3231
+    ],
+    [
+     "Total",
+     6474
+    ]
+   ],
+   "link3_scalac": 1271
+  }
+ ],
+ "B": [
+  {
+   "compile": 7832,
+   "link1": 11870,
+   "link1_stages": [
+    [
+     "Linking",
+     2190
+    ],
+    [
+     "Checking intermediate code (quick)",
+     203
+    ],
+    [
+     "Optimizing (debug mode)",
+     3114
+    ],
+    [
+     "Generating intermediate code",
+     2275
+    ],
+    [
+     "Compiling to native code",
+     3752
+    ],
+    [
+     "Total",
+     11660
+    ]
+   ],
+   "link1_scalac": 23,
+   "link2": 135,
+   "link2_stages": [],
+   "link2_scalac": 7,
+   "link3": 10829,
+   "link3_stages": [
+    [
+     "Linking",
+     1585
+    ],
+    [
+     "Checking intermediate code (quick)",
+     107
+    ],
+    [
+     "Optimizing (debug mode)",
+     2531
+    ],
+    [
+     "Generating intermediate code",
+     1386
+    ],
+    [
+     "Compiling to native code",
+     3765
+    ],
+    [
+     "Total",
+     9455
+    ]
+   ],
+   "link3_scalac": 1160
+  },
+  {
+   "compile": 8095,
+   "link1": 12308,
+   "link1_stages": [
+    [
+     "Linking",
+     2246
+    ],
+    [
+     "Checking intermediate code (quick)",
+     223
+    ],
+    [
+     "Optimizing (debug mode)",
+     3173
+    ],
+    [
+     "Generating intermediate code",
+     2313
+    ],
+    [
+     "Compiling to native code",
+     4032
+    ],
+    [
+     "Total",
+     12101
+    ]
+   ],
+   "link1_scalac": 18,
+   "link2": 225,
+   "link2_stages": [],
+   "link2_scalac": 17,
+   "link3": 12559,
+   "link3_stages": [
+    [
+     "Linking",
+     1664
+    ],
+    [
+     "Checking intermediate code (quick)",
+     98
+    ],
+    [
+     "Optimizing (debug mode)",
+     2519
+    ],
+    [
+     "Generating intermediate code",
+     1461
+    ],
+    [
+     "Compiling to native code",
+     4649
+    ],
+    [
+     "Total",
+     10476
+    ]
+   ],
+   "link3_scalac": 1835
+  },
+  {
+   "compile": 8220,
+   "link1": 11325,
+   "link1_stages": [
+    [
+     "Linking",
+     2332
+    ],
+    [
+     "Checking intermediate code (quick)",
+     163
+    ],
+    [
+     "Optimizing (debug mode)",
+     3254
+    ],
+    [
+     "Generating intermediate code",
+     2272
+    ],
+    [
+     "Compiling to native code",
+     2967
+    ],
+    [
+     "Total",
+     11114
+    ]
+   ],
+   "link1_scalac": 17,
+   "link2": 212,
+   "link2_stages": [],
+   "link2_scalac": 13,
+   "link3": 11953,
+   "link3_stages": [
+    [
+     "Linking",
+     1650
+    ],
+    [
+     "Checking intermediate code (quick)",
+     106
+    ],
+    [
+     "Optimizing (debug mode)",
+     2561
+    ],
+    [
+     "Generating intermediate code",
+     1475
+    ],
+    [
+     "Compiling to native code",
+     4126
+    ],
+    [
+     "Total",
+     10038
+    ]
+   ],
+   "link3_scalac": 1709
+  }
+ ],
+ "C": [
+  {
+   "compile": 8697,
+   "link1": 15927,
+   "link1_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     2347
+    ],
+    [
+     "Checking intermediate code (quick)",
+     261
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1774
+    ],
+    [
+     "Checking intermediate code (quick)",
+     119
+    ],
+    [
+     "Optimizing (debug mode)",
+     4628
+    ],
+    [
+     "Generating intermediate code",
+     5863
+    ],
+    [
+     "Compiling to native code",
+     2956
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     150
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     15736
+    ]
+   ],
+   "link1_scalac": 22,
+   "link2": 127,
+   "link2_stages": [],
+   "link2_scalac": 11,
+   "link3": 12866,
+   "link3_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     1754
+    ],
+    [
+     "Checking intermediate code (quick)",
+     59
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1318
+    ],
+    [
+     "Checking intermediate code (quick)",
+     49
+    ],
+    [
+     "Optimizing (debug mode)",
+     2074
+    ],
+    [
+     "Generating intermediate code",
+     4986
+    ],
+    [
+     "Compiling to native code",
+     3787
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     148
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     10968
+    ]
+   ],
+   "link3_scalac": 1739
+  },
+  {
+   "compile": 8864,
+   "link1": 12563,
+   "link1_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     2153
+    ],
+    [
+     "Checking intermediate code (quick)",
+     118
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1254
+    ],
+    [
+     "Checking intermediate code (quick)",
+     28
+    ],
+    [
+     "Optimizing (debug mode)",
+     2532
+    ],
+    [
+     "Generating intermediate code",
+     5377
+    ],
+    [
+     "Compiling to native code",
+     3186
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     170
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     12339
+    ]
+   ],
+   "link1_scalac": 23,
+   "link2": 134,
+   "link2_stages": [],
+   "link2_scalac": 13,
+   "link3": 12977,
+   "link3_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     1777
+    ],
+    [
+     "Checking intermediate code (quick)",
+     99
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1094
+    ],
+    [
+     "Checking intermediate code (quick)",
+     30
+    ],
+    [
+     "Optimizing (debug mode)",
+     2113
+    ],
+    [
+     "Generating intermediate code",
+     4988
+    ],
+    [
+     "Compiling to native code",
+     3794
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     144
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     10872
+    ]
+   ],
+   "link3_scalac": 1996
+  },
+  {
+   "compile": 8740,
+   "link1": 16166,
+   "link1_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     2430
+    ],
+    [
+     "Checking intermediate code (quick)",
+     269
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1653
+    ],
+    [
+     "Checking intermediate code (quick)",
+     99
+    ],
+    [
+     "Optimizing (debug mode)",
+     4903
+    ],
+    [
+     "Generating intermediate code",
+     5775
+    ],
+    [
+     "Compiling to native code",
+     2901
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     153
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     16004
+    ]
+   ],
+   "link1_scalac": 20,
+   "link2": 183,
+   "link2_stages": [],
+   "link2_scalac": 17,
+   "link3": 13073,
+   "link3_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     1691
+    ],
+    [
+     "Checking intermediate code (quick)",
+     60
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1164
+    ],
+    [
+     "Checking intermediate code (quick)",
+     39
+    ],
+    [
+     "Optimizing (debug mode)",
+     2393
+    ],
+    [
+     "Generating intermediate code",
+     5235
+    ],
+    [
+     "Compiling to native code",
+     3475
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     167
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     11227
+    ]
+   ],
+   "link3_scalac": 1726
+  }
+ ],
+ "D1": [
+  {
+   "compile": 7906,
+   "link1": 11274,
+   "link1_stages": [
+    [
+     "Linking",
+     2301
+    ],
+    [
+     "Checking intermediate code (quick)",
+     298
+    ],
+    [
+     "Optimizing (debug mode)",
+     3292
+    ],
+    [
+     "Generating intermediate code",
+     2047
+    ],
+    [
+     "Compiling to native code",
+     2872
+    ],
+    [
+     "Total",
+     11048
+    ]
+   ],
+   "link1_scalac": 10,
+   "link2": 201,
+   "link2_stages": [],
+   "link2_scalac": 12,
+   "link3": 11087,
+   "link3_stages": [
+    [
+     "Linking",
+     1593
+    ],
+    [
+     "Checking intermediate code (quick)",
+     135
+    ],
+    [
+     "Optimizing (debug mode)",
+     2568
+    ],
+    [
+     "Generating intermediate code",
+     1466
+    ],
+    [
+     "Compiling to native code",
+     3037
+    ],
+    [
+     "Total",
+     9016
+    ]
+   ],
+   "link3_scalac": 1874
+  },
+  {
+   "compile": 8084,
+   "link1": 12320,
+   "link1_stages": [
+    [
+     "Linking",
+     2153
+    ],
+    [
+     "Checking intermediate code (quick)",
+     216
+    ],
+    [
+     "Optimizing (debug mode)",
+     3670
+    ],
+    [
+     "Generating intermediate code",
+     2385
+    ],
+    [
+     "Compiling to native code",
+     3472
+    ],
+    [
+     "Total",
+     12123
+    ]
+   ],
+   "link1_scalac": 13,
+   "link2": 122,
+   "link2_stages": [],
+   "link2_scalac": 8,
+   "link3": 12120,
+   "link3_stages": [
+    [
+     "Linking",
+     1760
+    ],
+    [
+     "Checking intermediate code (quick)",
+     121
+    ],
+    [
+     "Optimizing (debug mode)",
+     2596
+    ],
+    [
+     "Generating intermediate code",
+     1465
+    ],
+    [
+     "Compiling to native code",
+     3927
+    ],
+    [
+     "Total",
+     10036
+    ]
+   ],
+   "link3_scalac": 1918
+  },
+  {
+   "compile": 8400,
+   "link1": 11664,
+   "link1_stages": [
+    [
+     "Linking",
+     2302
+    ],
+    [
+     "Checking intermediate code (quick)",
+     188
+    ],
+    [
+     "Optimizing (debug mode)",
+     3410
+    ],
+    [
+     "Generating intermediate code",
+     2442
+    ],
+    [
+     "Compiling to native code",
+     2925
+    ],
+    [
+     "Total",
+     11461
+    ]
+   ],
+   "link1_scalac": 16,
+   "link2": 228,
+   "link2_stages": [],
+   "link2_scalac": 10,
+   "link3": 11652,
+   "link3_stages": [
+    [
+     "Linking",
+     1847
+    ],
+    [
+     "Checking intermediate code (quick)",
+     182
+    ],
+    [
+     "Optimizing (debug mode)",
+     2638
+    ],
+    [
+     "Generating intermediate code",
+     1683
+    ],
+    [
+     "Compiling to native code",
+     2801
+    ],
+    [
+     "Total",
+     9331
+    ]
+   ],
+   "link3_scalac": 2095
+  }
+ ],
+ "D2": [
+  {
+   "compile": 8249,
+   "link1": 14411,
+   "link1_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     2371
+    ],
+    [
+     "Checking intermediate code (quick)",
+     199
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1626
+    ],
+    [
+     "Checking intermediate code (quick)",
+     96
+    ],
+    [
+     "Optimizing (debug mode)",
+     3543
+    ],
+    [
+     "Generating intermediate code",
+     5891
+    ],
+    [
+     "Compiling to native code",
+     2956
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     166
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     14238
+    ]
+   ],
+   "link1_scalac": 22,
+   "link2": 108,
+   "link2_stages": [],
+   "link2_scalac": 11,
+   "link3": 11456,
+   "link3_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     1654
+    ],
+    [
+     "Checking intermediate code (quick)",
+     64
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1102
+    ],
+    [
+     "Checking intermediate code (quick)",
+     28
+    ],
+    [
+     "Optimizing (debug mode)",
+     2064
+    ],
+    [
+     "Generating intermediate code",
+     3711
+    ],
+    [
+     "Compiling to native code",
+     2538
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     155
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     9525
+    ]
+   ],
+   "link3_scalac": 1822
+  },
+  {
+   "compile": 8250,
+   "link1": 14912,
+   "link1_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     2567
+    ],
+    [
+     "Checking intermediate code (quick)",
+     298
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1607
+    ],
+    [
+     "Checking intermediate code (quick)",
+     114
+    ],
+    [
+     "Optimizing (debug mode)",
+     3941
+    ],
+    [
+     "Generating intermediate code",
+     5677
+    ],
+    [
+     "Compiling to native code",
+     2750
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     164
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     14731
+    ]
+   ],
+   "link1_scalac": 14,
+   "link2": 116,
+   "link2_stages": [],
+   "link2_scalac": 21,
+   "link3": 10935,
+   "link3_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     1914
+    ],
+    [
+     "Checking intermediate code (quick)",
+     63
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1213
+    ],
+    [
+     "Checking intermediate code (quick)",
+     42
+    ],
+    [
+     "Optimizing (debug mode)",
+     2039
+    ],
+    [
+     "Generating intermediate code",
+     3326
+    ],
+    [
+     "Compiling to native code",
+     2390
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     140
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     9671
+    ]
+   ],
+   "link3_scalac": 1143
+  },
+  {
+   "compile": 8669,
+   "link1": 12007,
+   "link1_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     2002
+    ],
+    [
+     "Checking intermediate code (quick)",
+     132
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     1287
+    ],
+    [
+     "Checking intermediate code (quick)",
+     105
+    ],
+    [
+     "Optimizing (debug mode)",
+     2905
+    ],
+    [
+     "Generating intermediate code",
+     4303
+    ],
+    [
+     "Compiling to native code",
+     2723
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     143
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     11825
+    ]
+   ],
+   "link1_scalac": 58,
+   "link2": 95,
+   "link2_stages": [],
+   "link2_scalac": 7,
+   "link3": 11595,
+   "link3_stages": [
+    [
+     "Linking (multithreadingEnabled=detect)",
+     1417
+    ],
+    [
+     "Checking intermediate code (quick)",
+     68
+    ],
+    [
+     "Linking (multithreadingEnabled=false)",
+     973
+    ],
+    [
+     "Checking intermediate code (quick)",
+     39
+    ],
+    [
+     "Optimizing (debug mode)",
+     2214
+    ],
+    [
+     "Generating intermediate code",
+     4106
+    ],
+    [
+     "Compiling to native code",
+     3118
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     137
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     9694
+    ]
+   ],
+   "link3_scalac": 1795
+  }
+ ],
+ "E1": [
+  {
+   "compile": 5927,
+   "link1": 8400,
+   "link1_stages": [
+    [
+     "Linking",
+     1581
+    ],
+    [
+     "Checking intermediate code (quick)",
+     86
+    ],
+    [
+     "Optimizing (debug mode)",
+     2236
+    ],
+    [
+     "Generating intermediate code",
+     1534
+    ],
+    [
+     "Compiling to native code",
+     2607
+    ],
+    [
+     "Total",
+     8211
+    ]
+   ],
+   "link1_scalac": 24,
+   "link2": 131,
+   "link2_stages": [],
+   "link2_scalac": 9,
+   "link3": 6082,
+   "link3_stages": [
+    [
+     "Linking",
+     875
+    ],
+    [
+     "Checking intermediate code (quick)",
+     23
+    ],
+    [
+     "Optimizing (debug mode)",
+     1099
+    ],
+    [
+     "Generating intermediate code",
+     804
+    ],
+    [
+     "Compiling to native code",
+     2241
+    ],
+    [
+     "Total",
+     5190
+    ]
+   ],
+   "link3_scalac": 728
+  },
+  {
+   "compile": 6235,
+   "link1": 8205,
+   "link1_stages": [
+    [
+     "Linking",
+     1458
+    ],
+    [
+     "Checking intermediate code (quick)",
+     121
+    ],
+    [
+     "Optimizing (debug mode)",
+     2187
+    ],
+    [
+     "Generating intermediate code",
+     1516
+    ],
+    [
+     "Compiling to native code",
+     2570
+    ],
+    [
+     "Total",
+     8018
+    ]
+   ],
+   "link1_scalac": 17,
+   "link2": 144,
+   "link2_stages": [],
+   "link2_scalac": 16,
+   "link3": 6610,
+   "link3_stages": [
+    [
+     "Linking",
+     767
+    ],
+    [
+     "Checking intermediate code (quick)",
+     41
+    ],
+    [
+     "Optimizing (debug mode)",
+     1218
+    ],
+    [
+     "Generating intermediate code",
+     854
+    ],
+    [
+     "Compiling to native code",
+     2709
+    ],
+    [
+     "Total",
+     5721
+    ]
+   ],
+   "link3_scalac": 724
+  },
+  {
+   "compile": 6106,
+   "link1": 7581,
+   "link1_stages": [
+    [
+     "Linking",
+     1512
+    ],
+    [
+     "Checking intermediate code (quick)",
+     131
+    ],
+    [
+     "Optimizing (debug mode)",
+     2290
+    ],
+    [
+     "Generating intermediate code",
+     1369
+    ],
+    [
+     "Compiling to native code",
+     1892
+    ],
+    [
+     "Total",
+     7380
+    ]
+   ],
+   "link1_scalac": 16,
+   "link2": 132,
+   "link2_stages": [],
+   "link2_scalac": 6,
+   "link3": 6326,
+   "link3_stages": [
+    [
+     "Linking",
+     694
+    ],
+    [
+     "Checking intermediate code (quick)",
+     23
+    ],
+    [
+     "Optimizing (debug mode)",
+     972
+    ],
+    [
+     "Generating intermediate code",
+     793
+    ],
+    [
+     "Compiling to native code",
+     2838
+    ],
+    [
+     "Total",
+     5456
+    ]
+   ],
+   "link3_scalac": 702
+  }
+ ],
+ "E2": [
+  {
+   "compile": 6108,
+   "link1": 8231,
+   "link1_stages": [
+    [
+     "Linking",
+     1480
+    ],
+    [
+     "Checking intermediate code (quick)",
+     111
+    ],
+    [
+     "Optimizing (debug mode)",
+     2204
+    ],
+    [
+     "Generating intermediate code",
+     1716
+    ],
+    [
+     "Compiling to native code",
+     2345
+    ],
+    [
+     "Total",
+     8028
+    ]
+   ],
+   "link1_scalac": 10,
+   "link2": 119,
+   "link2_stages": [],
+   "link2_scalac": 12,
+   "link3": 6095,
+   "link3_stages": [
+    [
+     "Linking",
+     699
+    ],
+    [
+     "Checking intermediate code (quick)",
+     50
+    ],
+    [
+     "Optimizing (debug mode)",
+     1217
+    ],
+    [
+     "Generating intermediate code",
+     792
+    ],
+    [
+     "Compiling to native code",
+     2441
+    ],
+    [
+     "Total",
+     5319
+    ]
+   ],
+   "link3_scalac": 660
+  },
+  {
+   "compile": 5821,
+   "link1": 8086,
+   "link1_stages": [
+    [
+     "Linking",
+     1386
+    ],
+    [
+     "Checking intermediate code (quick)",
+     94
+    ],
+    [
+     "Optimizing (debug mode)",
+     2176
+    ],
+    [
+     "Generating intermediate code",
+     1360
+    ],
+    [
+     "Compiling to native code",
+     2758
+    ],
+    [
+     "Total",
+     7942
+    ]
+   ],
+   "link1_scalac": 12,
+   "link2": 118,
+   "link2_stages": [],
+   "link2_scalac": 9,
+   "link3": 6532,
+   "link3_stages": [
+    [
+     "Linking",
+     621
+    ],
+    [
+     "Checking intermediate code (quick)",
+     40
+    ],
+    [
+     "Optimizing (debug mode)",
+     1052
+    ],
+    [
+     "Generating intermediate code",
+     780
+    ],
+    [
+     "Compiling to native code",
+     3126
+    ],
+    [
+     "Total",
+     5748
+    ]
+   ],
+   "link3_scalac": 635
+  },
+  {
+   "compile": 5691,
+   "link1": 7361,
+   "link1_stages": [
+    [
+     "Linking",
+     1481
+    ],
+    [
+     "Checking intermediate code (quick)",
+     86
+    ],
+    [
+     "Optimizing (debug mode)",
+     2034
+    ],
+    [
+     "Generating intermediate code",
+     1459
+    ],
+    [
+     "Compiling to native code",
+     1944
+    ],
+    [
+     "Total",
+     7175
+    ]
+   ],
+   "link1_scalac": 23,
+   "link2": 111,
+   "link2_stages": [],
+   "link2_scalac": 11,
+   "link3": 6606,
+   "link3_stages": [
+    [
+     "Linking",
+     738
+    ],
+    [
+     "Checking intermediate code (quick)",
+     50
+    ],
+    [
+     "Optimizing (debug mode)",
+     1041
+    ],
+    [
+     "Generating intermediate code",
+     862
+    ],
+    [
+     "Compiling to native code",
+     3041
+    ],
+    [
+     "Total",
+     5857
+    ]
+   ],
+   "link3_scalac": 632
+  }
+ ],
+ "F": [
+  {
+   "compile": 8367,
+   "link1": 11740,
+   "link1_stages": [
+    [
+     "Linking (multithreadingEnabled=false)",
+     2048
+    ],
+    [
+     "Checking intermediate code (quick)",
+     115
+    ],
+    [
+     "Optimizing (debug mode)",
+     3100
+    ],
+    [
+     "Generating intermediate code",
+     5493
+    ],
+    [
+     "Compiling to native code",
+     3283
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     160
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     11600
+    ]
+   ],
+   "link1_scalac": 15,
+   "link2": 107,
+   "link2_stages": [],
+   "link2_scalac": 13,
+   "link3": 9618,
+   "link3_stages": [
+    [
+     "Linking (multithreadingEnabled=false)",
+     1479
+    ],
+    [
+     "Checking intermediate code (quick)",
+     75
+    ],
+    [
+     "Optimizing (debug mode)",
+     2008
+    ],
+    [
+     "Generating intermediate code",
+     3938
+    ],
+    [
+     "Compiling to native code",
+     3032
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     144
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     8140
+    ]
+   ],
+   "link3_scalac": 1364
+  },
+  {
+   "compile": 8710,
+   "link1": 11423,
+   "link1_stages": [
+    [
+     "Linking (multithreadingEnabled=false)",
+     2050
+    ],
+    [
+     "Checking intermediate code (quick)",
+     118
+    ],
+    [
+     "Optimizing (debug mode)",
+     2796
+    ],
+    [
+     "Generating intermediate code",
+     5482
+    ],
+    [
+     "Compiling to native code",
+     3234
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     156
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     11289
+    ]
+   ],
+   "link1_scalac": 16,
+   "link2": 95,
+   "link2_stages": [],
+   "link2_scalac": 13,
+   "link3": 8576,
+   "link3_stages": [
+    [
+     "Linking (multithreadingEnabled=false)",
+     1312
+    ],
+    [
+     "Checking intermediate code (quick)",
+     44
+    ],
+    [
+     "Optimizing (debug mode)",
+     1794
+    ],
+    [
+     "Generating intermediate code",
+     3472
+    ],
+    [
+     "Compiling to native code",
+     2607
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     170
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     7303
+    ]
+   ],
+   "link3_scalac": 1171
+  },
+  {
+   "compile": 8394,
+   "link1": 14254,
+   "link1_stages": [
+    [
+     "Linking (multithreadingEnabled=false)",
+     2018
+    ],
+    [
+     "Checking intermediate code (quick)",
+     199
+    ],
+    [
+     "Optimizing (debug mode)",
+     4197
+    ],
+    [
+     "Generating intermediate code",
+     6846
+    ],
+    [
+     "Compiling to native code",
+     3438
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     149
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     14056
+    ]
+   ],
+   "link1_scalac": 15,
+   "link2": 115,
+   "link2_stages": [],
+   "link2_scalac": 7,
+   "link3": 8364,
+   "link3_stages": [
+    [
+     "Linking (multithreadingEnabled=false)",
+     1100
+    ],
+    [
+     "Checking intermediate code (quick)",
+     68
+    ],
+    [
+     "Optimizing (debug mode)",
+     1822
+    ],
+    [
+     "Generating intermediate code",
+     3584
+    ],
+    [
+     "Compiling to native code",
+     2505
+    ],
+    [
+     "Linking native code (immix gc, none lto)",
+     158
+    ],
+    [
+     "Postprocessing",
+     0
+    ],
+    [
+     "Total",
+     7185
+    ]
+   ],
+   "link3_scalac": 1063
+  }
+ ]
+}

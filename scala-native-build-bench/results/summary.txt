@@ -1,0 +1,57 @@
+| cond | metric | run1 | run2 | run3 | median | vs base |
+|---|---|---|---|---|---|---|
+| base | compile | 8136 | 7832 | 8128 | 8128 | 1.00x |
+| base | link1 | 11905 | 12231 | 12472 | 12231 | 1.00x |
+| base | link2 | 213 | 173 | 236 | 213 | 1.00x |
+| base | link3 | 13110 | 12017 | 12048 | 12048 | 1.00x |
+| A | compile | 8098 | 8021 | 8169 | 8098 | 1.00x |
+| A | link1 | 9521 | 9629 | 9075 | 9521 | 0.78x |
+| A | link2 | 154 | 170 | 144 | 154 | 0.72x |
+| A | link3 | 9020 | 8299 | 7930 | 8299 | 0.69x |
+| B | compile | 7832 | 8095 | 8220 | 8095 | 1.00x |
+| B | link1 | 11870 | 12308 | 11325 | 11870 | 0.97x |
+| B | link2 | 135 | 225 | 212 | 212 | 1.00x |
+| B | link3 | 10829 | 12559 | 11953 | 11953 | 0.99x |
+| C | compile | 8697 | 8864 | 8740 | 8740 | 1.08x |
+| C | link1 | 15927 | 12563 | 16166 | 15927 | 1.30x |
+| C | link2 | 127 | 134 | 183 | 134 | 0.63x |
+| C | link3 | 12866 | 12977 | 13073 | 12977 | 1.08x |
+| D1 | compile | 7906 | 8084 | 8400 | 8084 | 0.99x |
+| D1 | link1 | 11274 | 12320 | 11664 | 11664 | 0.95x |
+| D1 | link2 | 201 | 122 | 228 | 201 | 0.94x |
+| D1 | link3 | 11087 | 12120 | 11652 | 11652 | 0.97x |
+| D2 | compile | 8249 | 8250 | 8669 | 8250 | 1.02x |
+| D2 | link1 | 14411 | 14912 | 12007 | 14411 | 1.18x |
+| D2 | link2 | 108 | 116 | 95 | 108 | 0.51x |
+| D2 | link3 | 11456 | 10935 | 11595 | 11456 | 0.95x |
+| E1 | compile | 5927 | 6235 | 6106 | 6106 | 0.75x |
+| E1 | link1 | 8400 | 8205 | 7581 | 8205 | 0.67x |
+| E1 | link2 | 131 | 144 | 132 | 132 | 0.62x |
+| E1 | link3 | 6082 | 6610 | 6326 | 6326 | 0.53x |
+| E2 | compile | 6108 | 5821 | 5691 | 5821 | 0.72x |
+| E2 | link1 | 8231 | 8086 | 7361 | 8086 | 0.66x |
+| E2 | link2 | 119 | 118 | 111 | 118 | 0.55x |
+| E2 | link3 | 6095 | 6532 | 6606 | 6532 | 0.54x |
+| F | compile | 8367 | 8710 | 8394 | 8394 | 1.03x |
+| F | link1 | 11740 | 11423 | 14254 | 11740 | 0.96x |
+| F | link2 | 107 | 95 | 115 | 107 | 0.50x |
+| F | link3 | 9618 | 8576 | 8364 | 8576 | 0.71x |
+
+base link1: scalac(in-task)=23 | Linking=2345 | Checking intermediate code (quick)=205 | Optimizing (debug mode)=3514 | Generating intermediate code=2224 | Compiling to native code=3437 | Total=12037
+base link3: scalac(in-task)=1865 | Linking=1702 | Checking intermediate code (quick)=116 | Optimizing (debug mode)=2399 | Generating intermediate code=1535 | Compiling to native code=4065 | Total=10079
+A link1: scalac(in-task)=15 | Linking=2272 | Checking intermediate code (quick)=157 | Optimizing (skipped)=0 | Generating intermediate code=2830 | Compiling to native code=3919 | Total=9309
+A link3: scalac(in-task)=1271 | Linking=1513 | Checking intermediate code (quick)=64 | Optimizing (skipped)=0 | Generating intermediate code=1551 | Compiling to native code=3690 | Total=6972
+B link1: scalac(in-task)=18 | Linking=2246 | Checking intermediate code (quick)=203 | Optimizing (debug mode)=3173 | Generating intermediate code=2275 | Compiling to native code=3752 | Total=11660
+B link3: scalac(in-task)=1709 | Linking=1650 | Checking intermediate code (quick)=106 | Optimizing (debug mode)=2531 | Generating intermediate code=1461 | Compiling to native code=4126 | Total=10038
+C link1: scalac(in-task)=22 | Linking (multithreadingEnabled=detect)=2347 | Checking intermediate code (quick)=368 | Linking (multithreadingEnabled=false)=1653 | Optimizing (debug mode)=4628 | Generating intermediate code=5775 | Compiling to native code=2956 | Linking native code (immix gc, none lto)=153 | Postprocessing=0 | Total=15736
+C link3: scalac(in-task)=1739 | Linking (multithreadingEnabled=detect)=1754 | Checking intermediate code (quick)=108 | Linking (multithreadingEnabled=false)=1164 | Optimizing (debug mode)=2113 | Generating intermediate code=4988 | Compiling to native code=3787 | Linking native code (immix gc, none lto)=148 | Postprocessing=0 | Total=10968
+D1 link1: scalac(in-task)=13 | Linking=2301 | Checking intermediate code (quick)=216 | Optimizing (debug mode)=3410 | Generating intermediate code=2385 | Compiling to native code=2925 | Total=11461
+D1 link3: scalac(in-task)=1918 | Linking=1760 | Checking intermediate code (quick)=135 | Optimizing (debug mode)=2596 | Generating intermediate code=1466 | Compiling to native code=3037 | Total=9331
+D2 link1: scalac(in-task)=22 | Linking (multithreadingEnabled=detect)=2371 | Checking intermediate code (quick)=295 | Linking (multithreadingEnabled=false)=1607 | Optimizing (debug mode)=3543 | Generating intermediate code=5677 | Compiling to native code=2750 | Linking native code (immix gc, none lto)=164 | Postprocessing=0 | Total=14238
+D2 link3: scalac(in-task)=1795 | Linking (multithreadingEnabled=detect)=1654 | Checking intermediate code (quick)=105 | Linking (multithreadingEnabled=false)=1102 | Optimizing (debug mode)=2064 | Generating intermediate code=3711 | Compiling to native code=2538 | Linking native code (immix gc, none lto)=140 | Postprocessing=0 | Total=9671
+E1 link1: scalac(in-task)=17 | Linking=1512 | Checking intermediate code (quick)=121 | Optimizing (debug mode)=2236 | Generating intermediate code=1516 | Compiling to native code=2570 | Total=8018
+E1 link3: scalac(in-task)=724 | Linking=767 | Checking intermediate code (quick)=23 | Optimizing (debug mode)=1099 | Generating intermediate code=804 | Compiling to native code=2709 | Total=5456
+E2 link1: scalac(in-task)=12 | Linking=1480 | Checking intermediate code (quick)=94 | Optimizing (debug mode)=2176 | Generating intermediate code=1459 | Compiling to native code=2345 | Total=7942
+E2 link3: scalac(in-task)=635 | Linking=699 | Checking intermediate code (quick)=50 | Optimizing (debug mode)=1052 | Generating intermediate code=792 | Compiling to native code=3041 | Total=5748
+F link1: scalac(in-task)=15 | Linking (multithreadingEnabled=false)=2048 | Checking intermediate code (quick)=118 | Optimizing (debug mode)=3100 | Generating intermediate code=5493 | Compiling to native code=3283 | Linking native code (immix gc, none lto)=156 | Postprocessing=0 | Total=11600
+F link3: scalac(in-task)=1171 | Linking (multithreadingEnabled=false)=1312 | Checking intermediate code (quick)=68 | Optimizing (debug mode)=1822 | Generating intermediate code=3584 | Compiling to native code=2607 | Linking native code (immix gc, none lto)=158 | Postprocessing=0 | Total=7303

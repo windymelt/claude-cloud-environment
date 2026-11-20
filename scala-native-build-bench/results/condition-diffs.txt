@@ -1,0 +1,61 @@
+### A
++// Experiment A: disable Scala Native's own NIR optimizer
++nativeConfig ~= (_.withOptimize(false))
+### B
++// Experiment B: use mold as the final linker
++nativeConfig ~= (c => c.withLinkingOptions(c.linkingOptions :+ "-fuse-ld=mold"))
+### C
+-// Baseline: Scala Native 0.4.17 / Scala 3.3.7 / debug mode (plugin default)
++// Baseline: Scala Native 0.5.12 / Scala 3.3.7 / debug mode (plugin default)
+-      "org.typelevel" %%% "cats-core"    % "2.11.0",
+-      "io.circe"      %%% "circe-core"   % "0.14.8",
+-      "io.circe"      %%% "circe-generic" % "0.14.8",
+-      "io.circe"      %%% "circe-parser" % "0.14.8"
++      "org.typelevel" %%% "cats-core"    % "2.13.0",
++      "io.circe"      %%% "circe-core"   % "0.14.17",
++      "io.circe"      %%% "circe-generic" % "0.14.17",
++      "io.circe"      %%% "circe-parser" % "0.14.17"
+-addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.4.17")
++addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.5.12")
+### D1
++// Experiment D1: enable incremental compilation on 0.4.17
++nativeConfig ~= (_.withIncrementalCompilation(true))
+### D2
+-// Baseline: Scala Native 0.4.17 / Scala 3.3.7 / debug mode (plugin default)
++// Baseline: Scala Native 0.5.12 / Scala 3.3.7 / debug mode (plugin default)
+-      "org.typelevel" %%% "cats-core"    % "2.11.0",
+-      "io.circe"      %%% "circe-core"   % "0.14.8",
+-      "io.circe"      %%% "circe-generic" % "0.14.8",
+-      "io.circe"      %%% "circe-parser" % "0.14.8"
++      "org.typelevel" %%% "cats-core"    % "2.13.0",
++      "io.circe"      %%% "circe-core"   % "0.14.17",
++      "io.circe"      %%% "circe-generic" % "0.14.17",
++      "io.circe"      %%% "circe-parser" % "0.14.17"
++// Experiment D2: disable incremental compilation on 0.5.12 (default is on)
++nativeConfig ~= (_.withIncrementalCompilation(false))
+-addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.4.17")
++addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.5.12")
+### E1
+### E2
+-    libraryDependencies ++= Seq(
+-      "org.typelevel" %%% "cats-core"    % "2.11.0",
+-      "io.circe"      %%% "circe-core"   % "0.14.8",
+-      "io.circe"      %%% "circe-generic" % "0.14.8",
+-      "io.circe"      %%% "circe-parser" % "0.14.8"
+-    )
++    // Experiment E2: no library dependencies
+### F
+-// Baseline: Scala Native 0.4.17 / Scala 3.3.7 / debug mode (plugin default)
++// Baseline: Scala Native 0.5.12 / Scala 3.3.7 / debug mode (plugin default)
+-      "org.typelevel" %%% "cats-core"    % "2.11.0",
+-      "io.circe"      %%% "circe-core"   % "0.14.8",
+-      "io.circe"      %%% "circe-generic" % "0.14.8",
+-      "io.circe"      %%% "circe-parser" % "0.14.8"
++      "org.typelevel" %%% "cats-core"    % "2.13.0",
++      "io.circe"      %%% "circe-core"   % "0.14.17",
++      "io.circe"      %%% "circe-generic" % "0.14.17",
++      "io.circe"      %%% "circe-parser" % "0.14.17"
++// Experiment F: 0.5.12 with multithreading explicitly off (skip detect & relink)
++nativeConfig ~= (_.withMultithreading(false))
+-addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.4.17")
++addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.5.12")
